@@ -1,0 +1,27 @@
+.title-container {
+    text-align: center; /* Center the content inside the container */
+}
+
+#welcomeTitle {
+    text-align: center;
+    margin: 0;
+    padding: 0; /* Remove padding to avoid triggering hover outside the text */
+    font-family: 'Fira Code', monospace;
+    display: inline-block; /* Shrink the hover area to just the text */
+}
+
+#card {
+    background-color: #f0f0f0; /* Light gray background for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Maximum width of the card */
+    margin: auto; /* Center the card horizontally */
+}
+
+#cardText {
+    font-family: 'Fira Code', monospace; /* Monospace font for the text */
+    font-size: 18px; /* Font size for the text */
+    line-height: 1.5; /* Line height for better readability */
+    color: #333; /* Dark gray text color */
+}
