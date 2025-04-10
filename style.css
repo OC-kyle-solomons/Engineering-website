@@ -1,17 +1,38 @@
-.title-container {
-    text-align: center; /* Center the content inside the container */
-}
 
-#homepage-background {
-    background-color: goldenrod
-}
 
-#welcomeTitle {
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F5C45E; /* Change to your desired background */
+  }
+
+#welcome-title {
     text-align: center;
     margin: 0;
     padding: 0; /* Remove padding to avoid triggering hover outside the text */
     font-family: 'Fira Code', monospace;
     display: inline-block; /* Shrink the hover area to just the text */
+    color: #102E50
+}
+
+#welcome {
+    background-color: #f0f0f0; /* Light gray background for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Maximum width of the card */
+    margin: auto; /* Center the card horizontally */
+    margin-bottom: 10px;
+}
+
+#welcome-text {
+    font-family: 'Roboto'; /* Monospace font for the text */
+    font-size: 17px; /* Font size for the text */
+    line-height: 1.5; /* Line height for better readability */
+    color: #102E50; /* Dark blue text color */
+    text-align: center;
 }
 
 .container {
@@ -23,10 +44,22 @@
     margin: auto; /* Center the card horizontally */
 }
 
-#cardText {
-    font-family: 'Fira Code', monospace; /* Monospace font for the text */
-    font-size: 18px; /* Font size for the text */
+.card-info {
+    font-family: 'Roboto'; /* Monospace font for the text */
+    font-size: 15px; /* Font size for the text */
     line-height: 1.5; /* Line height for better readability */
-    color: #333; /* Dark gray text color */
+    color: #102E50; /* Dark blue text color */
+}
+
+.card-title {
+    padding: 0; /* Remove padding to avoid triggering hover outside the text */
+    display: inline-block; /* Shrink the hover area to just the text */
+    font-family: 'Fira Code', monospace; /* Monospace font for the text */
+    text-decoration: none;
+    color: #1166c8;
+}
+
+.card-title:hover {
+    color: #3895ff;
 }
 
