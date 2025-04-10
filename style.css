@@ -2,6 +2,10 @@
     text-align: center; /* Center the content inside the container */
 }
 
+#homepage-background {
+    background-color: goldenrod
+}
+
 #welcomeTitle {
     text-align: center;
     margin: 0;
@@ -10,7 +14,7 @@
     display: inline-block; /* Shrink the hover area to just the text */
 }
 
-#card {
+.container {
     background-color: #f0f0f0; /* Light gray background for the card */
     border-radius: 10px; /* Rounded corners for the card */
     padding: 20px; /* Padding inside the card */
@@ -25,3 +29,4 @@
     line-height: 1.5; /* Line height for better readability */
     color: #333; /* Dark gray text color */
 }
+
