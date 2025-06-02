@@ -1,12 +1,30 @@
 
 
-html, body {
+body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #F5C45E; /* Change to your desired background */
+    background-image: url("/assets/hatch-background.svg");
+    background-size: cover; /* Or try 'contain', 'auto', or a specific size like '100px 100px' */
+    background-repeat: repeat; /* Change to 'repeat' if you want the pattern to tile */
+    font-family: sans-serif;
+    color: white;
+    position: relative; /* Important: required for the pseudo-element to overlay properly */
+    min-height: 100vh;
+    z-index: 0;
   }
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(235, 162, 7, 0.6); /* Adjust the 0.5 for more or less darkness */
+  z-index: -1; /* Puts the overlay behind the content */
+}
 
 #welcome-title {
     text-align: center;
@@ -42,6 +60,19 @@ html, body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     max-width: 600px; /* Maximum width of the card */
     margin: auto; /* Center the card horizontally */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    background-color: #F4F8D3; /* Light gray background for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Maximum width of the card */
+    margin: auto; /* Center the card horizontally */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .card-info {

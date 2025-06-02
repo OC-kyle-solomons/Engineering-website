@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="master-artboard" viewBox="0 0 982 980" version="1.1" x="0px" y="0px" style="enable-background:new 0 0 1400 980;" width="982px" height="980px">
+
+<pattern width="40" height="50" patternUnits="userSpaceOnUse" id="Crosshatch_2" viewBox="0 -50 40 50" style="overflow:visible;">
+	<g>
+		<path d="M 0 0 L 40 0 L 40 -50 L 0 -50 Z" class="st0" style="fill: none;"/>
+		<path d="M 30 -26.799999237060547 L 40 -39.29999923706055 L 40 -50 L 31.399999618530273 -50 L 21.399999618530273 -37.5 Z" class="st1" style="fill: rgb(255, 255, 255);"/>
+		<path d="M 31.399999618530273 -25 L 40 -14.300000190734863 L 40 -35.70000076293945 Z" class="st1" style="fill: rgb(255, 255, 255);"/>
+		<path d="M 40 0 L 40 -10.699999809265137 L 31.399999618530273 0 Z" class="st1" style="fill: rgb(255, 255, 255);"/>
+		<path d="M 1.399999976158142 -37.5 L 30 -1.7999999523162842 L 38.599998474121094 -12.5 L 10 -48.20000076293945 Z" class="st1" style="fill: rgb(255, 255, 255);"/>
+		<path d="M 8.600000381469727 -25 L 0 -35.70000076293945 L 0 -35.70000076293945 L 0 -14.300000190734863 L 0 -14.300000190734863 Z" class="st1" style="fill: rgb(255, 255, 255);"/>
+		<path d="M 11.399999618530273 0 L 28.600000381469727 0 L 20 -10.699999809265137 Z" class="st1" style="fill: rgb(255, 255, 255);"/>
+		<path d="M 8.600000381469727 -50 L 0 -50 L 0 -39.29999923706055 L 0 -39.29999923706055 Z" class="st1" style="fill: rgb(255, 255, 255);"/>
+		<path d="M 28.600000381469727 -50 L 11.399999618530273 -50 L 20 -39.29999923706055 Z" class="st1" style="fill: rgb(255, 255, 255);"/>
+		<path d="M 10 -23.200000762939453 L 0 -10.699999809265137 L 0 0 L 8.600000381469727 0 L 18.600000381469727 -12.5 Z" class="st1" style="fill: rgb(255, 255, 255);"/>
+		<path class="st2" d="M31.4-25L40-14.3v3.6L31.4,0h-2.9L20-10.7L11.4,0H8.6l10-12.5L10-23.2L0-10.7v-3.6l0,0L8.6-25L0-35.7l0,0&#10;&#9;&#9;&#9;v-3.6l0,0L8.6-50h2.9L20-39.3L28.6-50h2.9l-10,12.5L30-26.8l10-12.5v3.6L31.4-25z M10-48.2L1.4-37.5L30-1.8l8.6-10.7L10-48.2z" style="fill: rgb(45, 77, 79);"/>
+	</g>
+</pattern>
+<pattern id="SVGID_1_" patternTransform="matrix(1.5 0 0 1.5 3730.0007 3339.1526)" xlink:href="#Crosshatch_2">
+</pattern>
+<path d="M 0 0 H 1400 V 980 H 0 V 0 Z" class="st3" style="fill: url('#SVGID_1_');"/>
+
+
+
+
+</svg>
